@@ -1,0 +1,10 @@
+I:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\ResolveAssemblyReference.cache
+I:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\bin\Debug\XueFu.EntLib.dll
+I:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\bin\Debug\XueFu.EntLib.pdb
+I:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.dll
+I:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.pdb
+N:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\bin\Debug\XueFu.EntLib.dll
+N:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\bin\Debug\XueFu.EntLib.pdb
+N:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\ResolveAssemblyReference.cache
+N:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.dll
+N:\网站\客户\东方消费平台\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.pdb

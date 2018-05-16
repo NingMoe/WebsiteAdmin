@@ -1,0 +1,10 @@
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.IDAL.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.IDAL.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.Model.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.Model.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.csprojResolveAssemblyReference.cache
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.EntLib.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.EntLib.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.csproj.CoreCompileInputs.cache

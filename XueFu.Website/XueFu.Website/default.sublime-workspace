@@ -1,0 +1,741 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Log",
+				"Logout"
+			],
+			[
+				"jav",
+				"javascript:void"
+			],
+			[
+				"ex",
+				"expression"
+			],
+			[
+				"check",
+				"checkValue"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"add",
+				"addClass('on"
+			],
+			[
+				"quest",
+				"QuestionMenu"
+			],
+			[
+				"java",
+				"javascript"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"diya",
+				"diyaType"
+			],
+			[
+				"M",
+				"Mobile"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ht",
+				"html	.html()"
+			],
+			[
+				"hangye",
+				"hangyecontent"
+			],
+			[
+				"dis",
+				"disenable"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"sli",
+				"slideUp	.slideUp()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"webc",
+				"webchat"
+			],
+			[
+				"qq",
+				"qq-1"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"web",
+				"webchat"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"banner-",
+				"banner-tvc"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"blo",
+				"bold"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"w",
+				"w1000"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"val",
+				"vertical-align"
+			],
+			[
+				"aspx",
+				"aspx?ID={{=v"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"paddn",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"file",
+				"filterimages"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"tr",
+				"trigger	.trigger()"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"hi",
+				"hide"
+			],
+			[
+				"sh",
+				"show"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"asp",
+				"asp?id"
+			],
+			[
+				"borer",
+				"border-right"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Usr",
+				"UserAddress"
+			],
+			[
+				"User",
+				"UserContacts"
+			],
+			[
+				"sub",
+				"submit	.submit()"
+			],
+			[
+				"mt",
+				"mt30"
+			],
+			[
+				"ja",
+				"javascript:void"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"b",
+				"block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 594.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/Login.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/AboutUs.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/contact.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/course.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/course_detail.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/datavisual.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/gouwuche.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/guide.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/intro.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/jobplan.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/order_buy.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/order_cash.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/order_detail.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Product.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/public_detail.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/test.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/public.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/CompanyAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/ChangePassword.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/PostPlanReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/HRReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/CompanyList.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserList.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/ZongHeReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/KPI.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/KPIAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/WorkingPostAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/EvaluateNameAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/EvaluateName.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/EvaluateAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/StaffEvaluateAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/EvaluateReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserAdd.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/MyTestRecord.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserLeft.htm",
+		"/C/Users/xuefu/AppData/Local/Temp/Rar$DRa0.369/demo.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/My97DatePicker/calendar.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/StaffEvaluateReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/EvaluateProReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/StaffEvaluateProReport.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Foot.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Foot.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/CourseCenter.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserHead.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Top.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserInfoShow.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/UserChangePassword.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Js/Login.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Js/Register.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/js/sms.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/User/Login.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/WorkingPost.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/ManageLeft.htm",
+		"/I/资料/ems/EMS/evaluating_indicator.html",
+		"/I/资料/ems/EMS/general_evaluation.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/ManageFoot.htm",
+		"/I/资料/ems/EMS/post_list.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/User/ChangePassword.htm",
+		"/I/资料/ems/EMS/modify_password.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/js/test.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/ManageFoot.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/TestCenter.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Ajax.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/VideoShow.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Verify.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Test.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/ProductAjax.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/User/Index.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/mycourse.html",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Default.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/Head.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/user/Index.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Product.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Default.htm",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/Red/Js/Product.js",
+		"/I/公司/EMS/XueFuShop/Plugins/Template/MOShop/js/course.js",
+		"/C/wamp/www/huiyangfund/public/php/methtml.inc.php",
+		"/C/wamp/www/www/templates/tb002/index.php",
+		"/C/wamp/www/huiyangfund/include/global/showmod.php",
+		"/C/wamp/www/huiyangfund/news/shownews.php",
+		"/C/wamp/www/huiyangfund/include/head.php",
+		"/C/wamp/www/huiyangfund/include/access.php",
+		"/C/wamp/www/huiyangfund/worth1/shownews.php",
+		"/C/wamp/www/huiyangfund/include/common.inc.php",
+		"/C/wamp/www/huiyangfund/worth1/index.php",
+		"/C/wamp/www/huiyangfund/include/module.php",
+		"/C/wamp/www/huiyangfund/index.htm",
+		"/C/wamp/www/huiyangfund/templates/tb002/head.php",
+		"/C/wamp/www/huiyangfund/index.html",
+		"/C/wamp/www/www/index.htm",
+		"/I/网站/客户/仟邦/new/201508/website/m/css/css.css",
+		"/I/网站/客户/仟邦/new/201508/website/index.asp",
+		"/I/网站/客户/仟邦/new/201508/website/m/index.html",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/advert2/js/js.js",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/advert/css/Style.css",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/advert/js/js.js",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/Advert.htm",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/Advert2.htm",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/advert2/css/style.css",
+		"/I/网站/客户/仟邦/new/20160727/website/advert/css/Style.css",
+		"/I/网站/客户/仟邦/new/20160727/website/advert.htm",
+		"/I/网站/客户/仟邦/new/几个点/XueFuCompany/XueFuShop/Plugins/Template/Website/advert2.htm",
+		"/I/网站/客户/仟邦/new/20160930/css/style.css",
+		"/I/网站/客户/仟邦/new/20160930/index.html",
+		"/I/网站/客户/仟邦/new/20160930/js/yxMobileSlider.js",
+		"/I/网站/客户/览天文化传媒/website/index.asp",
+		"/I/网站/客户/览天文化传媒/website/pro.asp",
+		"/I/网站/客户/览天文化传媒/website/news.asp",
+		"/I/网站/客户/览天文化传媒/website/Ajax.asp",
+		"/I/网站/客户/览天文化传媒/website/css/Base.css",
+		"/I/网站/客户/览天文化传媒/website/css/Style.css",
+		"/I/网站/客户/览天文化传媒/website/pro-6.html",
+		"/I/网站/客户/览天文化传媒/website/js/pic_tab.js",
+		"/I/网站/客户/光讯子/网站/website/head.asp",
+		"/I/网站/客户/AIAF/website/cn/Menu.asp",
+		"/I/网站/客户/AIAF/website/cn/Show.asp",
+		"/I/网站/客户/AIAF/website/cn/News.asp",
+		"/I/网站/客户/览天文化传媒/website/services.asp",
+		"/I/网站/客户/览天文化传媒/website/project.asp",
+		"/I/网站/客户/览天文化传媒/website/pro-1.html",
+		"/I/网站/客户/光讯子/网站/website/copyright.asp",
+		"/I/网站/客户/览天文化传媒/website/aboutus.asp",
+		"/I/网站/客户/览天文化传媒/website/index.html",
+		"/I/网站/客户/览天文化传媒/website/rightmenu.asp",
+		"/I/网站/客户/览天文化传媒/website/head.asp",
+		"/I/网站/客户/览天文化传媒/website/dbconnect.asp",
+		"/I/网站/客户/览天文化传媒/website/bottom.asp",
+		"/I/网站/客户/览天文化传媒/website/movie.asp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"I:\\公司\\EMS\\XueFuShop\\Plugins\\Template\\MOShop",
+			"test.html",
+			"C:\\wamp\\www\\huiyangfund",
+			"I:\\网站\\客户\\AIAF\\website\\cn",
+			"C:\\wamp\\www\\metinfo",
+			"I:\\网站\\客户\\徐阳新公司网站\\MetInfo5.3,C:\\wamp\\www\\metinfo",
+			"I:\\网站\\客户\\徐阳新公司网站\\MetInfo5.3",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a href=\"index.html\">返回首页</a>",
+			"EMS报表",
+			"HandInTestPaper",
+			"\"../",
+			"smsCodeAjax",
+			"smscodeinput",
+			"msg_code_txt",
+			"user_webpower",
+			"$metaccess['user_webpower']",
+			"'metinfo_member_type'",
+			"$metinfo_member_type",
+			"access<=",
+			",.",
+			"jq",
+			".operation",
+			"operation",
+			"html",
+			"afterLoad",
+			"tips",
+			"optioncontent",
+			"	\n",
+			"flex",
+			"select2",
+			"getMdb",
+			"	\n",
+			".gd_list .span",
+			"appraise_check",
+			"getTemplate",
+			"blues",
+			"scroll_bool",
+			"没有了",
+			"Technical Support",
+			"The Asia Institute of Art and Finance (AIAF)",
+			"<li>Address: Room 3406-3407, Shanghai Tower, No.479Lujiazui Ring Road, Pudong New Area, Shanghai, China</li>",
+			"<li>Contact Us</li>",
+			"<a href=\"/english/\">",
+			"CHINESE</a>",
+			"英语</a>",
+			"ENGLISH</a>",
+			"CONTACT US</a>",
+			"提交",
+			"Email",
+			"email",
+			"Email",
+			"Mobile",
+			"mobile",
+			"Name",
+			"Relation",
+			"mt30",
+			"mt",
+			" bindcard",
+			"IsSystemAlert",
+			"}",
+			"Unexpected",
+			"Unexpected token",
+			"layer",
+			"messages",
+			"$nav_list2",
+			"met_column",
+			"$metinfo_member_type",
+			"inputPassword3",
+			"inputEmail3",
+			"Style",
+			"style",
+			"Style",
+			"style",
+			"Style",
+			"style",
+			"Style",
+			"style",
+			"$nav_list2",
+			"$nav_list2 =",
+			"$nav_list2=",
+			"metlabel_sidebar",
+			"met_module2_list",
+			"list-none",
+			"met_aside",
+			"navdown",
+			"$fmodule",
+			"head",
+			"$metinfo_member_type",
+			"$md_class",
+			"$md_list",
+			"$met_news_list",
+			"$met_news",
+			"met_news",
+			"change_own_include_dir",
+			"check(",
+			"analyze",
+			"yScroll1",
+			"navbar",
+			"navbar-fixed-bottom",
+			"10",
+			"dt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"/\">返回首页</a>",
+			"\"./",
+			"技术支持",
+			"亚洲艺术品金融商学院",
+			"<li>地址：中国上海市浦东新区陆家嘴环路479号上海中心大厦3406-3407室</li>",
+			"<li>联系我们</li>",
+			"<a href=\"/cn/\">",
+			"中文</a>",
+			"英文</a>",
+			"英语</a>",
+			"联系我们</a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "default.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

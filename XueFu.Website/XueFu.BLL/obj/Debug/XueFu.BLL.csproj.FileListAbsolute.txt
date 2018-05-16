@@ -1,0 +1,14 @@
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.BLL.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.BLL.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.Common.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.EntLib.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.IDAL.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.Model.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.Common.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.EntLib.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.IDAL.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.Model.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.csprojResolveAssemblyReference.cache
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.csproj.CoreCompileInputs.cache

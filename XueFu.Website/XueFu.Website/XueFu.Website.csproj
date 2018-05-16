@@ -1,0 +1,547 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9118F930-E91B-4035-BDAE-D93FB2AB3778}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XueFu.Website</RootNamespace>
+    <AssemblyName>XueFu.Website</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Ajax.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax.aspx.designer.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article.aspx.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article.aspx.designer.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ArticleAdd.aspx.cs">
+      <DependentUpon>ArticleAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ArticleAdd.aspx.designer.cs">
+      <DependentUpon>ArticleAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Bonus.aspx.cs">
+      <DependentUpon>Bonus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Bonus.aspx.designer.cs">
+      <DependentUpon>Bonus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BonusGrant.aspx.cs">
+      <DependentUpon>BonusGrant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BonusGrant.aspx.designer.cs">
+      <DependentUpon>BonusGrant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Code.aspx.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Code.aspx.designer.cs">
+      <DependentUpon>Code.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Introduce.aspx.cs">
+      <DependentUpon>Introduce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Introduce.aspx.designer.cs">
+      <DependentUpon>Introduce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MenuAdd.aspx.cs">
+      <DependentUpon>MenuAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MenuAdd.aspx.designer.cs">
+      <DependentUpon>MenuAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NoteBook.aspx.cs">
+      <DependentUpon>NoteBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NoteBook.aspx.designer.cs">
+      <DependentUpon>NoteBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ConfigAdd.aspx.cs">
+      <DependentUpon>ConfigAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ConfigAdd.aspx.designer.cs">
+      <DependentUpon>ConfigAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemInfo.aspx.cs">
+      <DependentUpon>SystemInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemInfo.aspx.designer.cs">
+      <DependentUpon>SystemInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Transfer.aspx.cs">
+      <DependentUpon>Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Transfer.aspx.designer.cs">
+      <DependentUpon>Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserPasswordAdd.aspx.cs">
+      <DependentUpon>UserPasswordAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserPasswordAdd.aspx.designer.cs">
+      <DependentUpon>UserPasswordAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax.aspx.designer.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MyTeam.aspx.cs">
+      <DependentUpon>MyTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyTeam.aspx.designer.cs">
+      <DependentUpon>MyTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeDetail.aspx.cs">
+      <DependentUpon>NoticeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeDetail.aspx.designer.cs">
+      <DependentUpon>NoticeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Record.aspx.cs">
+      <DependentUpon>Record.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Record.aspx.designer.cs">
+      <DependentUpon>Record.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer.aspx.cs">
+      <DependentUpon>Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transfer.aspx.designer.cs">
+      <DependentUpon>Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XueFu.BLL\XueFu.BLL.csproj">
+      <Project>{4F5DA971-6F78-4DE8-B988-3D6163146849}</Project>
+      <Name>XueFu.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XueFu.Common\XueFu.Common.csproj">
+      <Project>{E39F6A1C-ACCD-4B4D-B922-B7C5EE04B2A4}</Project>
+      <Name>XueFu.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XueFu.DAL\XueFu.DAL.csproj">
+      <Project>{E1AE8CEC-3912-40B5-A7E6-70BAD43714BB}</Project>
+      <Name>XueFu.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XueFu.EntLib\XueFu.EntLib.csproj">
+      <Project>{B6A13C13-29C7-497D-AB76-8C1E22D5C3DA}</Project>
+      <Name>XueFu.EntLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XueFu.Model\XueFu.Model.csproj">
+      <Project>{EF96909A-0497-485C-89CA-176A30C94CC5}</Project>
+      <Name>XueFu.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\CacheKey.config" />
+    <Content Include="Config\Config.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Ajax.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="css\login.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="js\base.js" />
+    <Content Include="js\jquery-1.12.4.min.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\need\layer.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="Master.Master" />
+    <Content Include="MyTeam.aspx" />
+    <Content Include="sidenav\sidenav.min.css" />
+    <Content Include="sidenav\sidenav.min.js" />
+    <Content Include="Transfer.aspx" />
+    <Content Include="UserAdd.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Article.aspx" />
+    <Content Include="Admin\ArticleAdd.aspx" />
+    <Content Include="Admin\Bonus.aspx" />
+    <Content Include="Admin\BonusGrant.aspx" />
+    <Content Include="Admin\ChangePassword.aspx" />
+    <Content Include="Admin\Code.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\images\ad.png" />
+    <Content Include="Admin\images\add.gif" />
+    <Content Include="Admin\images\bar.gif" />
+    <Content Include="Admin\images\bottom.gif" />
+    <Content Include="Admin\images\button_bg.png" />
+    <Content Include="Admin\images\channel.gif" />
+    <Content Include="Admin\images\channelOn.gif" />
+    <Content Include="Admin\images\channelPadding.gif" />
+    <Content Include="Admin\images\checked.png" />
+    <Content Include="Admin\images\copy.gif" />
+    <Content Include="Admin\images\delete.gif" />
+    <Content Include="Admin\images\edit.gif" />
+    <Content Include="Admin\images\grade.png" />
+    <Content Include="Admin\images\icon\1-icon.gif" />
+    <Content Include="Admin\images\icon\10-icon.gif" />
+    <Content Include="Admin\images\icon\11-icon.gif" />
+    <Content Include="Admin\images\icon\12-icon.gif" />
+    <Content Include="Admin\images\icon\13-icon.gif" />
+    <Content Include="Admin\images\icon\14-icon.gif" />
+    <Content Include="Admin\images\icon\15-icon.gif" />
+    <Content Include="Admin\images\icon\16-icon.gif" />
+    <Content Include="Admin\images\icon\17-icon.gif" />
+    <Content Include="Admin\images\icon\18-icon.gif" />
+    <Content Include="Admin\images\icon\19-icon.gif" />
+    <Content Include="Admin\images\icon\2-icon.gif" />
+    <Content Include="Admin\images\icon\20-icon.gif" />
+    <Content Include="Admin\images\icon\21-icon.gif" />
+    <Content Include="Admin\images\icon\22-icon.gif" />
+    <Content Include="Admin\images\icon\23-icon.gif" />
+    <Content Include="Admin\images\icon\24-icon.gif" />
+    <Content Include="Admin\images\icon\25-icon.gif" />
+    <Content Include="Admin\images\icon\26-icon.gif" />
+    <Content Include="Admin\images\icon\27-icon.gif" />
+    <Content Include="Admin\images\icon\28-icon.gif" />
+    <Content Include="Admin\images\icon\29-icon.gif" />
+    <Content Include="Admin\images\icon\3-icon.gif" />
+    <Content Include="Admin\images\icon\30-icon.gif" />
+    <Content Include="Admin\images\icon\31-icon.gif" />
+    <Content Include="Admin\images\icon\32-icon.gif" />
+    <Content Include="Admin\images\icon\33-icon.gif" />
+    <Content Include="Admin\images\icon\34-icon.gif" />
+    <Content Include="Admin\images\icon\35-icon.gif" />
+    <Content Include="Admin\images\icon\36-icon.gif" />
+    <Content Include="Admin\images\icon\37-icon.gif" />
+    <Content Include="Admin\images\icon\38-icon.gif" />
+    <Content Include="Admin\images\icon\39-icon.gif" />
+    <Content Include="Admin\images\icon\4-icon.gif" />
+    <Content Include="Admin\images\icon\40-icon.gif" />
+    <Content Include="Admin\images\icon\41-icon.gif" />
+    <Content Include="Admin\images\icon\42-icon.gif" />
+    <Content Include="Admin\images\icon\43-icon.gif" />
+    <Content Include="Admin\images\icon\44-icon.gif" />
+    <Content Include="Admin\images\icon\45-icon.gif" />
+    <Content Include="Admin\images\icon\46-icon.gif" />
+    <Content Include="Admin\images\icon\47-icon.gif" />
+    <Content Include="Admin\images\icon\48-icon.gif" />
+    <Content Include="Admin\images\icon\49-icon.gif" />
+    <Content Include="Admin\images\icon\5-icon.gif" />
+    <Content Include="Admin\images\icon\50-icon.gif" />
+    <Content Include="Admin\images\icon\51-icon.gif" />
+    <Content Include="Admin\images\icon\52-icon.gif" />
+    <Content Include="Admin\images\icon\53-icon.gif" />
+    <Content Include="Admin\images\icon\54-icon.gif" />
+    <Content Include="Admin\images\icon\55-icon.gif" />
+    <Content Include="Admin\images\icon\56-icon.gif" />
+    <Content Include="Admin\images\icon\57-icon.gif" />
+    <Content Include="Admin\images\icon\58-icon.gif" />
+    <Content Include="Admin\images\icon\59-icon.gif" />
+    <Content Include="Admin\images\icon\6-icon.gif" />
+    <Content Include="Admin\images\icon\60-icon.gif" />
+    <Content Include="Admin\images\icon\7-icon.gif" />
+    <Content Include="Admin\images\icon\8-icon.gif" />
+    <Content Include="Admin\images\icon\9-icon.gif" />
+    <Content Include="Admin\images\leftMenuOff.png" />
+    <Content Include="Admin\images\leftMenuOn.png" />
+    <Content Include="Admin\images\leftSmallMenuBgOn.png" />
+    <Content Include="Admin\images\list.gif" />
+    <Content Include="Admin\images\listOff.png" />
+    <Content Include="Admin\images\listOn.png" />
+    <Content Include="Admin\images\Loading.gif" />
+    <Content Include="Admin\images\loginBg.jpg" />
+    <Content Include="Admin\images\logo.png" />
+    <Content Include="Admin\images\logo2.png" />
+    <Content Include="Admin\images\menu.gif" />
+    <Content Include="Admin\images\menuPadding.gif" />
+    <Content Include="Admin\images\moveDown.gif" />
+    <Content Include="Admin\images\moveUp.gif" />
+    <Content Include="Admin\images\passport.gif" />
+    <Content Include="Admin\images\password.gif" />
+    <Content Include="Admin\images\PositionBg.png" />
+    <Content Include="Admin\images\PositionIcon.png" />
+    <Content Include="Admin\images\reply.gif" />
+    <Content Include="Admin\images\send.gif" />
+    <Content Include="Admin\images\set.gif" />
+    <Content Include="Admin\images\success.gif" />
+    <Content Include="Admin\images\top.gif" />
+    <Content Include="Admin\Introduce.aspx" />
+    <Content Include="Admin\js\Admin.js" />
+    <Content Include="Admin\js\Calendar.js" />
+    <Content Include="Admin\js\Common.js" />
+    <Content Include="Admin\js\Default.js" />
+    <Content Include="Admin\js\Left.js" />
+    <Content Include="Admin\js\ScrollText.js" />
+    <Content Include="Admin\Left.aspx" />
+    <Content Include="Admin\Logout.aspx" />
+    <Content Include="Admin\Menu.aspx" />
+    <Content Include="Admin\MenuAdd.aspx" />
+    <Content Include="Admin\NoteBook.aspx" />
+    <Content Include="Admin\pop\lhgcore.min.js" />
+    <Content Include="Admin\pop\lhgdialog.min.js" />
+    <Content Include="Admin\pop\skins\aero.css" />
+    <Content Include="Admin\pop\skins\aero\ie6\bottom.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\left.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\leftBottom.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\leftTop.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\right.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\rightBottom.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\rightTop.png" />
+    <Content Include="Admin\pop\skins\aero\ie6\titbtn.gif" />
+    <Content Include="Admin\pop\skins\aero\ie6\top.png" />
+    <Content Include="Admin\pop\skins\aero\lhgdg_bg.png" />
+    <Content Include="Admin\pop\skins\aero\lhgdg_x.png" />
+    <Content Include="Admin\pop\skins\aero\wait.gif" />
+    <Content Include="Admin\pop\skins\chrome.css" />
+    <Content Include="Admin\pop\skins\chrome\lhgdg_bg.gif" />
+    <Content Include="Admin\pop\skins\chrome\lhgdg_btn.gif" />
+    <Content Include="Admin\pop\skins\chrome\lhgdg_x.gif" />
+    <Content Include="Admin\pop\skins\chrome\wait.gif" />
+    <Content Include="Admin\pop\skins\default.css" />
+    <Content Include="Admin\pop\skins\default\ie6\bottom.png" />
+    <Content Include="Admin\pop\skins\default\ie6\left.png" />
+    <Content Include="Admin\pop\skins\default\ie6\leftBottom.png" />
+    <Content Include="Admin\pop\skins\default\ie6\leftTop.png" />
+    <Content Include="Admin\pop\skins\default\ie6\right.png" />
+    <Content Include="Admin\pop\skins\default\ie6\rightBottom.png" />
+    <Content Include="Admin\pop\skins\default\ie6\rightTop.png" />
+    <Content Include="Admin\pop\skins\default\ie6\titBtn.gif" />
+    <Content Include="Admin\pop\skins\default\ie6\top.png" />
+    <Content Include="Admin\pop\skins\default\lhgdg_bg.png" />
+    <Content Include="Admin\pop\skins\default\lhgdg_x.png" />
+    <Content Include="Admin\pop\skins\default\wait.gif" />
+    <Content Include="Admin\pop\skins\notitle.css" />
+    <Content Include="Admin\pop\skins\notitle\ie6\bottom.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\left.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\leftBottom.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\leftTop.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\right.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\rightBottom.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\rightTop.png" />
+    <Content Include="Admin\pop\skins\notitle\ie6\top.png" />
+    <Content Include="Admin\pop\skins\notitle\lhgdg_bg.png" />
+    <Content Include="Admin\pop\skins\notitle\lhgdg_x.png" />
+    <Content Include="Admin\pop\skins\notitle\wait.gif" />
+    <Content Include="Admin\ConfigAdd.aspx" />
+    <Content Include="Admin\SystemInfo.aspx" />
+    <Content Include="Admin\Style\style.css" />
+    <Content Include="Admin\Transfer.aspx" />
+    <Content Include="Admin\User.aspx" />
+    <Content Include="Admin\UserAdd.aspx" />
+    <Content Include="Admin\UserPasswordAdd.aspx" />
+    <Content Include="Config\Language.config" />
+    <None Include="Admin\images\icon\Thumbs.db" />
+    <None Include="Admin\images\Thumbs.db" />
+    <Content Include="Admin\MasterPage.Master" />
+    <Content Include="css\bg.jpg" />
+    <Content Include="css\loading_big.gif" />
+    <Content Include="js\Common.js" />
+    <Content Include="js\scrollloading.js" />
+    <Content Include="Logout.aspx" />
+    <Content Include="NoticeDetail.aspx" />
+    <Content Include="Record.aspx" />
+    <None Include="database\Procedure.sql" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51700</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

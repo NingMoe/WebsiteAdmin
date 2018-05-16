@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="XueFu.Admin.MasterPage" %>
+<%@ Import Namespace="XueFu.Common" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title><%=XueFu.Common.Global.ProductName%>后台管理</title>
+    <link href="Style/style.css" type="text/css" rel="stylesheet" media="all" /> 
+    <script language="javascript" type="text/javascript">var globalPopCloseRefresh=<%=Config.ReadConfigInfo().PopCloseRefresh.ToString() %>; var globalNamePrefix = "<%=Config.ReadConfigInfo().NamePrefix%>"; var globalIDPrefix = "<%=Config.ReadConfigInfo().IDPrefix%>";</script>
+    <script language="javascript" type="text/javascript" src="Js/Common.js" ></script>
+    <script language="javascript" type="text/javascript" src="Js/Admin.js" ></script> 
+    <%if(Request.RawUrl.IndexOf("Add.aspx")==-1){ %>
+    <script type="text/javascript" src="pop/lhgcore.min.js"></script>
+	<script type="text/javascript" src="pop/lhgdialog.min.js?s=chrome"></script>	 
+	<%} %>
+</head>
+<body>
+    <form id="aspnetForm" runat="server" autocomplete="off">
+    <div class="mainBody">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

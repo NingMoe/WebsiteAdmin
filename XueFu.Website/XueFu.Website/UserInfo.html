@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>登陆-几个点</title>
+  <!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <nav class="nav-top navbar-fixed-top">
+    <div class="row text-center">
+        <div class="col-xs-12" id="navTitle">
+          用户修改
+        </div>
+    </div>
+  </nav>
+  <div class="clearfix" style=" height:80px;"></div>
+  <div class="panel-body">
+  <form class="form-horizontal userinfo">
+    <div class="form-group row" id="block-introducer">
+      <label for="introducer" class="col-xs-3 control-label text-right">推荐人</label>
+      <div class="col-xs-9">
+        <input type="text" class="form-control" id="introducer" placeholder="推荐人用户名">
+      </div>
+      <p id="error-introducer">&nbsp;</p>
+    </div>
+    <div class="form-group" id="block-username">
+      <label for="username" class="col-xs-3 control-label text-right">用户名</label>
+      <div class="col-xs-9">
+        <input type="text" class="form-control" id="username" placeholder="5-16位[字符、数字、_.@]">
+      </div>
+      <p id="error-username">&nbsp;</p>
+    </div>
+    <div class="form-group" id="block-password">
+      <label for="password" class="col-xs-3 control-label text-right">密码</label>
+      <div class="col-xs-9">
+        <input type="password" class="form-control" id="password" placeholder="字母和数字的组合">
+      </div>
+      <p id="error-password">&nbsp;</p>
+    </div>
+    <div class="form-group" id="block-realname">
+      <label for="realname" class="col-xs-3 control-label text-right">姓名</label>
+      <div class="col-xs-9">
+        <input type="text" class="form-control" id="realname" placeholder="真实姓名">
+      </div>
+      <p id="error-realname">&nbsp;</p>
+    </div>
+    <div class="form-group" id="block-sex">
+      <label for="sex" class="col-xs-3 control-label text-right">性别</label>
+      <div class="col-xs-9">
+        <label class="checkbox-inline">
+          <input type="checkbox" name="sex" id="sex1" value="1"> 男
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" name="sex" id="sex2" value="2"> 女
+        </label>
+      </div>
+    </div>
+    <div class="form-group" id="block-idcard">
+      <label for="idcard" class="col-xs-3 control-label text-right">身份证</label>
+      <div class="col-xs-9">
+        <input type="text" class="form-control" id="idcard" placeholder="身份证号码">
+      </div>
+      <p id="error-idcard">&nbsp;</p>
+    </div>
+     <div class="form-group" id="block-wechat">
+      <label for="wechat" class="col-xs-3 control-label text-right">微信号</label>
+      <div class="col-xs-9">
+        <input type="text" class="form-control" id="wechat" placeholder="微信号">
+      </div>
+      <p id="error-wechat">&nbsp;</p>
+    </div>
+    <input type="hidden" name="formtype" id="formtype" value="1">
+    <button id="userbutton" type="button" class="btn btn-danger btn-lg btn-block">添加</button>
+  </form>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="layer/layer.js"></script>
+  <script type="text/javascript" src="js/LoginModule.js"></script>
+</body>
+</html>

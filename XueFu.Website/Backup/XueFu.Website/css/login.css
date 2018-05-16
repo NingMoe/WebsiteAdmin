@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .06em;
+  font: normal 14px/20px "Microsoft YaHei","微软雅黑";
+}
+body { background: #00a6f0 url(../images/login_bg.jpg) center no-repeat; }
+.mb30 { margin-bottom: 30px; }
+.nav-top { 
+  background-color: #ff6769;
+  color: #fff;
+  font-size: 1.2em;
+}
+.nav-top .row div { padding: 10px; }
+.nav-top .badge {
+  margin-top: -20px;
+  padding: 2px 4px;
+  margin-right: 6px;
+  font-weight: lighter;
+}
+#navUser {
+  height: 100%;
+  background: url(../images/user.png) 1em center no-repeat ;
+  background-size: 45%;
+  opacity: 0.8;
+}
+.pagemain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -309px 0 0 -335px;
+  width: 670px;
+  height: 618px;
+  padding: 30px 100px;
+}
+.pagemain .panel-heading {
+  background: none;
+  border: 0;
+}
+@media (max-width: 768px) {
+  body { background: none; }
+  .pagemain {
+	top: 0;
+    left: 0;
+	margin: 0;
+	width: 100%;
+    height: auto;
+	padding: 0;
+  }
+}
+.form-group,#div_id_float { margin-bottom: -.5em; }
+.form-group p,
+#error-geeteststatus,
+#error-validcode {
+  color: #F00;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+}
+#error-geeteststatus {
+	display: none;
+	margin-top: .5em;
+}
+#error-validcode {
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: .5em;
+  min-width:100px;
+}
+.validcode-line { margin-top: 2em; }
+.form-group input {
+  height: 3em;
+  line-height: 3em;
+}
+.form-group [type='button'] {
+  line-height: 2em;
+}
+.forget_pwd {
+  display:inline-block;
+  width:100%;
+  height: 3em;
+  line-height: 3em;
+  color:#aa2724;
+}
+.tabitem li {
+  border-bottom: 2px solid #d8d8d8;
+  cursor: pointer;
+  position: relative;
+  line-height: 3em;
+  font-size: 16px;
+}
+.tabitem li.active {
+  position: relative;
+  color: #00a6f0;
+  z-index: 1;
+  border-bottom: 2px solid #00a6f0;
+  -webkit-transition: border-bottom 1s ease-in-out;
+  transition: border-bottom 1s ease-in-out;
+}
+.tabitem li.active::after { background-color:#f3f8fb; }
+[data-item]:not([data-item='type-0']) { display: none; }
+[data-item='type-1'] { display: none; }
+a { color: #414141; }

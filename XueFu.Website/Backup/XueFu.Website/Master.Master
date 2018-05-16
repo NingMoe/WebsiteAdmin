@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="XueFu.Website.Master" %>
+<%@ Import Namespace="XueFu.EntLib" %>
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head runat="server">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1v7ofwhlq1j4te29.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="sidenav/sidenav.min.css">
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+	    <div class="sidenav-brand">
+	      东方消费平台
+	    </div>
+
+	    <div class="sidenav-header">
+	      <%=user.RealName %>
+	      <small><%=user.Name %></small>
+	    </div>
+
+	    <ul class="sidenav-menu">
+	      <li>
+		    <a href="/">
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-zhuye-copy"></i>
+		      </span>
+		      <span class="sidenav-link-title">首页</span>
+		    </a>
+	      </li>
+	      <li>
+		    <a href="javascript:;" data-sidenav-dropdown-toggle>
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-shezhi"></i>
+		      </span>
+		      <span class="sidenav-link-title">会员设置</span>
+		      <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow487"></i>
+		      </span>
+		      <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow483"></i>
+		      </span>
+		    </a>
+
+		    <ul class="sidenav-dropdown" data-sidenav-dropdown>
+		      <li><a href="UserAdd.aspx?Action=UpdateLoad">个人信息</a></li>
+		      <li><a href="ChangePassword.aspx">修改密码</a></li>
+		    </ul>
+	      </li>
+	      <li>
+		    <a href="MyTeam.aspx">
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-2zuzhijiagou"></i>
+		      </span>
+		      <span class="sidenav-link-title">我的团队</span>
+		    </a>
+	      </li>
+	      <li>
+		    <a href="javascript:;" data-sidenav-dropdown-toggle>
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-zhanghao"></i>
+		      </span>
+		      <span class="sidenav-link-title">帐户管理</span>
+		      <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow487"></i>
+		      </span>
+		      <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow483"></i>
+		      </span>
+		    </a>
+
+		    <ul class="sidenav-dropdown" data-sidenav-dropdown>
+		    <%if(user.GroupID == (int)GroupType.Report) {%>
+		      <li><a href="UserAdd.aspx">报单中心</a></li>
+		    <%} %>
+		      <li><a href="Transfer.aspx">会员转帐</a></li>
+		    </ul>
+	      </li>
+	      <li>
+		    <a href="javascript:;" data-sidenav-dropdown-toggle>
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-shangjin"></i>
+		      </span>
+		      <span class="sidenav-link-title">奖金明细</span>
+		      <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow487"></i>
+		      </span>
+		      <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+			    <i class="iconfont icon-jiantouarrow483"></i>
+		      </span>
+		    </a>
+
+		    <ul class="sidenav-dropdown" data-sidenav-dropdown>
+		      <li><a href="Record.aspx?Action=Bonus">分红记录</a></li>
+		      <li><a href="Record.aspx?Action=Introduce">推荐记录</a></li>
+		      <li><a href="Record.aspx?Action=Transfer">转帐记录</a></li>
+		      <%if(user.GroupID == (int)GroupType.Report) {%>
+		      <li><a href="Record.aspx?Action=AddUser">报单记录</a></li>
+		      <%} %>
+		    </ul>
+	      </li>
+	      <li>
+		    <a href="Record.aspx?Action=Notice">
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-gonggao"></i>
+		      </span>
+		      <span class="sidenav-link-title">公告</span>
+		    </a>
+	      </li>
+	      <li>
+		    <a href="javascript:void(0);">
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-shangcheng"></i>
+		      </span>
+		      <span class="sidenav-link-title">在线商城</span>
+		    </a>
+	      </li>
+	      <li>
+		    <a href="Logout.aspx">
+		      <span class="sidenav-link-icon">
+			    <i class="iconfont icon-tuichu"></i>
+		      </span>
+		      <span class="sidenav-link-title">退出</span>
+		    </a>
+	      </li>
+	    </ul>
+    </nav>
+    <nav class="nav-top navbar-fixed-top">
+        <div class="row text-center">
+            <div class="col-xs-3">
+                
+                <a href="javascript:;" class="toggle" id="sidenav-toggle">
+	<i class="iconfont icon-menu1"></i>
+  </a>
+            </div>
+            <div class="col-xs-6" id="navTitle">
+                <%=Title %>
+            </div>
+            <%if(querystring>0) {%>
+            <div class="col-xs-3 text-center" onclick="javascript:history.go(-1);">
+                <i class="iconfont icon-shiliangzhinengduixiang4" style="font-size:20px;"></i>
+            </div>
+            <%} %>
+        </div>
+    </nav>
+    <div class="clearfix" style=" height:60px;"></div>
+    <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="sidenav/sidenav.min.js"></script>
+    <script>$('[data-sidenav]').sidenav();</script>
+    <script type="text/javascript" src="layer/layer.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <asp:ContentPlaceHolder ID="FootContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

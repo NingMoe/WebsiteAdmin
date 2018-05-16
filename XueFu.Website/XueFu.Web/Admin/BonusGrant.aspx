@@ -1,0 +1,4 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/MasterPage.Master" AutoEventWireup="true" CodeBehind="BonusGrant.aspx.cs" Inherits="XueFu.Web.Admin.BonusGrant" Title="无标题页" %>
+<asp:Content ID="MasterContent" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+<div class="position"><img src="/Admin/images/PositionIcon.png"  alt=""/>开始分红</div><ul class="search">    <li>        分红金额：        <XueFu:TextBox CssClass="input" ID="Money" runat="server"  Width="30px" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" />		<asp:Button CssClass="button" ID="BonusButton" Text=" 开始分红 " runat="server" OnClick="BonusButton_Click" />   </li>   <li>        团队奖金：		<asp:Button CssClass="button" ID="TeamMoneyButton" Text=" 开始发放 " runat="server" OnClick="TeamMoneyButton_Click" />   </li></ul>
+</asp:Content>
