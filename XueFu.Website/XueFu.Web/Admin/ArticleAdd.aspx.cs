@@ -32,8 +32,8 @@ namespace XueFu.Web.Admin
                         }
                     }
                     this.ClassID.Text = classID;
-                    this.Summary.Text = info2.Summary;
-                    this.IsTop.Text = info2.IsTop.ToString();
+                    this.Url.Text = info2.Url;
+                    this.Content.Value = info2.Content;
                 }
             }
         }
@@ -44,8 +44,8 @@ namespace XueFu.Web.Admin
             article.ID = RequestHelper.GetQueryString<int>("ID");
             article.Title = this.Title.Text;
             article.ClassID = ArticleClassBLL.ReadArticleClassFullFatherID(Convert.ToInt32(this.ClassID.Text));
-            article.Summary = this.Summary.Text;
-            article.IsTop = int.Parse(this.IsTop.Text);
+            article.Url = this.Url.Text;
+            article.Content = this.Content.Value;
             article.Date = RequestHelper.DateNow;
             string alertMessage = Language.ReadLanguage("AddOK");
             if (article.ID == -2147483648)

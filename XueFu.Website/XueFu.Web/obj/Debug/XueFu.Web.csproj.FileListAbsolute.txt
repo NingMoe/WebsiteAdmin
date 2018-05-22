@@ -85,4 +85,5 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\obj\Debug\XueFu.Web.csprojResolve
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\obj\Debug\XueFu.Web.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\obj\Debug\XueFu.Web.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\bin\AspNet.ScriptManager.jQuery.dll
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\obj\Debug\XueFu.Web.csproj.CoreCompileInputs.cache
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\bin\FredCK.FCKeditorV2.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Web\bin\FredCK.FCKeditorV2.pdb

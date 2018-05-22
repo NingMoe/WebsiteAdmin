@@ -7,4 +7,3 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Debug\XueFu.Model.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Debug\XueFu.Common.csprojResolveAssemblyReference.cache
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Debug\XueFu.Common.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Debug\XueFu.Common.pdb
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Debug\XueFu.Common.csproj.CoreCompileInputs.cache

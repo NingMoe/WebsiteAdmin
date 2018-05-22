@@ -1,0 +1,77 @@
+﻿@model XueFu.Model.ArticleInfo
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="雅 -MIYAVI- Official Site || MIYAVI and his inimitable `SAMURAI GUITARIST` persona are a global phenomenon.">
+    <meta name="keywords" content="miyavi,みやび,ミヤビ,雅,victory road to the king of neo visual rock,miyavizm 主義,myv pops,みやびうた,this iz the japaneze kabuki rock,azn pride this iz the japanese kabuki rock,miyavi remix album room no.382 remixed by teddy loid,雅楽,gagaku,miyabi,galyuu 雅流">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <!-- title -->
+    <title>@Model.Title</title>
+    <!-- GA -->
+    <!-- <script src="assets/js/ga.js"></script> -->
+    <style>
+        body {
+            background: #0f0f0f;
+            font-family: "微软雅黑,宋体,arial"
+        }
+
+        #article {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+            #article h3 {
+                color: #fff;
+                font-size: 28px;
+            }
+
+            #article .small {
+                color: #fff;
+                font-size: 16px;
+                color: #adadad;
+                text-align:center;
+            }
+
+            #article p {
+                text-indent: 2em;
+                margin: 15px auto;
+                text-size-adjust: auto;
+                color: #adadad;
+                line-height: 180%;
+            }
+
+            #article img {
+                vertical-align: middle;
+                margin: 0 auto;
+                max-width: 640px;
+                display: block;
+            }
+
+            #article .articlecontent {
+                width: 100%;
+                margin:50px auto;
+            }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- /////////////////////////////////////////////////////////////////// -->
+        <article id="article">
+            <h3>@Model.Title</h3>
+            <div class="small">@Model.Date.ToString("yyyy年MM月dd日")</div>
+            <div class="articlecontent">@Html.Raw(@Model.Content)</div>
+        </article>
+        <!-- /////////////////////////////////////////////////////////////////// -->
+    </div><!-- /#wrapper -->
+</body>
+</html>

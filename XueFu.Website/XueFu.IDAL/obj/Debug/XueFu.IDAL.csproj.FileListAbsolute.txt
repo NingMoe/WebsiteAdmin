@@ -7,4 +7,3 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.EntLib.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\bin\Debug\XueFu.EntLib.pdb
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.IDAL\obj\Debug\XueFu.IDAL.csproj.CoreCompileInputs.cache

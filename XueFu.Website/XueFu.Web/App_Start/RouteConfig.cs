@@ -12,6 +12,7 @@ namespace XueFu.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("Admin/FCKeditor/{*pathInfo}");
 
             routes.MapRoute(
                 name: "Default",

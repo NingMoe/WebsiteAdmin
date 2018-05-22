@@ -1,0 +1,10 @@
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.Common.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.Common.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.EntLib.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.Model.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.EntLib.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\bin\Release\XueFu.Model.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Release\XueFu.Common.csprojResolveAssemblyReference.cache
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Release\XueFu.Common.dll
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Release\XueFu.Common.pdb
+H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Common\obj\Release\XueFu.Common.csproj.CoreCompileInputs.cache

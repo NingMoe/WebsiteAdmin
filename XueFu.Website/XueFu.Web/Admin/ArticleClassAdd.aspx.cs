@@ -21,7 +21,7 @@ namespace XueFu.Web.Admin
                 int queryString = RequestHelper.GetQueryString<int>("ID");
                 if (queryString != -2147483648)
                 {
-                    base.CheckAdminPower("ReadArticleClass", PowerCheckType.Single);
+                    //base.CheckAdminPower("ReadArticleClass", PowerCheckType.Single);
                     ArticleClassInfo info = ArticleClassBLL.ReadArticleClassCache(queryString);
                     this.FatherID.Text = info.FatherID.ToString();
                     this.OrderID.Text = info.OrderID.ToString();
@@ -43,13 +43,13 @@ namespace XueFu.Web.Admin
         string alertMessage = Language.ReadLanguage("AddOK");
         if (articleClass.ID == -2147483648)
         {
-            base.CheckAdminPower("AddArticleClass", PowerCheckType.Single);
+            //base.CheckAdminPower("AddArticleClass", PowerCheckType.Single);
             int id = ArticleClassBLL.AddArticleClass(articleClass);
             AdminLogBLL.AddAdminLog(Language.ReadLanguage("AddRecord"), Language.ReadLanguage("ArticleClass"), id);
         }
         else
         {
-            base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
+            //base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
             ArticleClassBLL.UpdateArticleClass(articleClass);
             AdminLogBLL.AddAdminLog(Language.ReadLanguage("UpdateRecord"), Language.ReadLanguage("ArticleClass"), articleClass.ID);
             alertMessage = Language.ReadLanguage("UpdateOK");

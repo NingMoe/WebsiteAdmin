@@ -191,5 +191,13 @@ namespace XueFu.Model
         }
 
         public string PowerKey { get; set; }
+
+        public int WaterType { get; set; }
+        public int WaterPossition { get; set; }
+        public string Text { get; set; }
+        public string TextFont { get; set; }
+        public int TextSize { get; set; }
+        public string TextColor { get; set; }
+        public string WaterPhoto { get; set; }
     }
 }

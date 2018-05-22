@@ -3,4 +3,3 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.EntLib\bin\Debug\XueFu.EntLib.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.csprojResolveAssemblyReference.cache
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.EntLib\obj\Debug\XueFu.EntLib.csproj.CoreCompileInputs.cache

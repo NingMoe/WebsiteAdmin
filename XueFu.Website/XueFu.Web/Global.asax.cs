@@ -17,5 +17,10 @@ namespace XueFu.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+            if (Context.Request.FilePath == "/") Context.RewritePath("index.html");
+        }
     }
 }

@@ -11,4 +11,3 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\bin\Debug\XueFu.Model.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.csprojResolveAssemblyReference.cache
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.pdb
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.BLL\obj\Debug\XueFu.BLL.csproj.CoreCompileInputs.cache

@@ -31,22 +31,22 @@ namespace XueFu.Web.Admin {
         protected global::XueFu.EntLib.TextBox Title;
         
         /// <summary>
-        /// Summary 控件。
+        /// Url 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::XueFu.EntLib.TextBox Summary;
+        protected global::XueFu.EntLib.TextBox Url;
         
         /// <summary>
-        /// IsTop 控件。
+        /// Content 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList IsTop;
+        protected global::FredCK.FCKeditorV2.FCKeditor Content;
         
         /// <summary>
         /// Hint 控件。

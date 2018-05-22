@@ -210,7 +210,7 @@ namespace XueFu.EntLib
             }
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return this.conditionString;
         }

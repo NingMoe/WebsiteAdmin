@@ -21,13 +21,13 @@ namespace XueFu.Web.Admin
                     {
                         if (str2 == "Down")
                         {
-                            base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
+                            //base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
                             ArticleClassBLL.MoveDownArticleClass(id);
                             AdminLogBLL.AddAdminLog(Language.ReadLanguage("MoveRecord"), Language.ReadLanguage("ArticleClass"), id);
                         }
                         else if (str2 == "Delete")
                         {
-                            base.CheckAdminPower("DeleteArticleClass", PowerCheckType.Single);
+                            //base.CheckAdminPower("DeleteArticleClass", PowerCheckType.Single);
                             if (ArticleClassBLL.ReadArticleClassCache(id).IsSystem == 0)
                             {
                                 ArticleClassBLL.DeleteArticleClass(id);
@@ -41,7 +41,7 @@ namespace XueFu.Web.Admin
                     }
                     else
                     {
-                        base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
+                        //base.CheckAdminPower("UpdateArticleClass", PowerCheckType.Single);
                         ArticleClassBLL.MoveUpArticleClass(id);
                         AdminLogBLL.AddAdminLog(Language.ReadLanguage("MoveRecord"), Language.ReadLanguage("ArticleClass"), id);
                     }

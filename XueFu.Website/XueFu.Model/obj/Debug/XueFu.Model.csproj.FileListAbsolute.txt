@@ -5,4 +5,3 @@ H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Model\bin\Debug\XueFu.EntLib.pdb
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Model\obj\Debug\XueFu.Model.csprojResolveAssemblyReference.cache
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Model\obj\Debug\XueFu.Model.dll
 H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Model\obj\Debug\XueFu.Model.pdb
-H:\网站\WebsiteAdmin\XueFu.Website\XueFu.Model\obj\Debug\XueFu.Model.csproj.CoreCompileInputs.cache

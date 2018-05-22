@@ -50,6 +50,7 @@
     <Compile Include="CacheHelper.cs" />
     <Compile Include="EncryptHelper.cs" />
     <Compile Include="Hint.cs" />
+    <Compile Include="ImageHelper.cs" />
     <Compile Include="MethodExtend\BoolenExtension.cs" />
     <Compile Include="MethodExtend\EnumExtension.cs" />
     <Compile Include="Model\EnumInfo.cs" />
